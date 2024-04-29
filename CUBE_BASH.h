@@ -23,6 +23,8 @@
 #define DOWN 2
 #define RIGHT 3
 
+// Struct for representing a ghost entity
+
 typedef struct Ghost
 {
     unsigned int y;
@@ -33,6 +35,8 @@ typedef struct Ghost
     unsigned int num_ropes;
     unsigned int num_levels;
 } ghost;
+
+// Struct for representing a rope entity
 
 typedef struct Rope
 {
